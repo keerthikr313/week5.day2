@@ -11,7 +11,7 @@ public class Read {
 
 	public static String[][] readData(String excelFileName) throws IOException {
 		//to open excel sheet
-		XSSFWorkbook book = new XSSFWorkbook("./testData/"+excelFileName+"tc001.xlsx");
+		XSSFWorkbook book = new XSSFWorkbook("./testData/"+"tc001.xlsx");
 		//get to sheet where data is available
 		XSSFSheet sheet = book.getSheetAt(0);
 		//get row count
